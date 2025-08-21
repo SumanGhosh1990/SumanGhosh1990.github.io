@@ -1,3 +1,3 @@
 title: My Blog
 description: My GitHub Pages blog
-theme: minima   # simple built-in theme
+theme: jekyll-theme-cayman   # simple built-in theme
