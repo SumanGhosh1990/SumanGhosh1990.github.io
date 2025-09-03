@@ -1,5 +1,4 @@
 title: Data Science Made Real
-# description: My GitHub Pages blog
 theme: jekyll-theme-cayman   # simple built-in theme
 markdown: kramdown
 kramdown:
