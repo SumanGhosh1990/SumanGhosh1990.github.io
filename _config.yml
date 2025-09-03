@@ -1,3 +1,7 @@
 title: My Blog
 description: My GitHub Pages blog
 theme: jekyll-theme-cayman   # simple built-in theme
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
