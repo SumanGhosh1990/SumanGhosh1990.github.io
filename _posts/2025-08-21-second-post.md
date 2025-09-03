@@ -4,9 +4,9 @@ title: "second post"
 date: 2025-09-03 09:00:00 +0530
 ---
 🎉Ever wondered how Xgboost parameter scale_pos_weight can help in reducing imbalance of the data. What exactly is going under the hood, is it some kind of magic? Lets explore this together
-👍
 
-In **XGBoost**, the parameter **`scale_pos_weight`** is specifically designed to help when you have **imbalanced classes** (for example, fraud detection where 1% are fraud cases and 99% are non-fraud).
+---
+In **XGBoost**, the parameter **`scale_pos_weight`** is specifically designed to help when you have **imbalanced classes** 
 
 ---
 
