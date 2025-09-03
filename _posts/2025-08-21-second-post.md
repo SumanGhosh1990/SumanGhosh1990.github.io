@@ -1,4 +1,4 @@
----
+--
 title: "ML Series : Use of Scale_Pos_Weight in reducing class imbalance"
 ---
 🎉Ever wondered how Xgboost parameter scale_pos_weight can help in reducing imbalance of the data. What exactly is going under the hood, is it some kind of magic? Lets explore this together
