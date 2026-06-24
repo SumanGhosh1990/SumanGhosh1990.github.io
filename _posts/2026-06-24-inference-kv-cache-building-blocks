@@ -1,1 +1,87 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KV Cache Explained Simply</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            line-height: 1.6;
+            color: #222;
+        }
+        h1 {
+            font-size: 32px;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        .box {
+            background: #f5f5f5;
+            padding: 15px;
+            border-left: 4px solid #0073b1;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>KV Cache in Transformers (Simple Explanation)</h1>
+
+<p><b>The reason LLMs like ChatGPT are fast is not just better models — it's better memory management.</b></p>
+
+<h2>What is KV Cache?</h2>
+
+<p>Take a simple sentence:</p>
+<p><b>“Ram is a good boy”</b></p>
+
+<p>Each word is converted into vectors (numbers).</p>
+
+<div class="box">
+<p><b>Each word stores:</b></p>
+<ul>
+<li>Key (K) → how it should be matched</li>
+<li>Value (V) → what it contains</li>
+</ul>
+</div>
+
+<h2>What happens next?</h2>
+
+<p>When a new word comes, the model doesn’t start from scratch.</p>
+
+<ul>
+<li>Looks at all previous Keys</li>
+<li>Pulls relevant Values</li>
+</ul>
+
+<p><b>This stored memory = KV Cache</b></p>
+
+<h2>Why it matters</h2>
+
+<div class="box">
+<p><b>Without KV Cache</b><br>
+Recompute everything → slow, expensive</p>
+
+<p><b>With KV Cache</b><br>
+Reuse past → fast, scalable</p>
+</div>
+
+<h2>Real Impact</h2>
+
+<ul>
+<li>ChatGPT speed</li>
+<li>Long conversations</li>
+<li>Systems like vLLM</li>
+</ul>
+
+<h2>Explore More</h2>
+
+<p>
+<a href="https://github.com/Suman-Git-DS/kv-cache-from-scratch">View Code on GitHub</a>
+</p>
+
+</body>
+</html>
